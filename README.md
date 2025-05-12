@@ -31,7 +31,7 @@ This is a simple **client-server console application** built in C# using `.NET`,
 ### 🔃 Step 1: Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone (https://github.com/rohu0510/socket-assignment.git)
 cd <project-root-directory>
 ```
 
