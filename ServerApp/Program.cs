@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 class Program
 {
-    public static void Main(string[] args)
+    public static async Task Main(string[] args)
     {
         Console.Write("Enter IP to bind (e.g., 127.0.0.1): ");
         string ipString = Console.ReadLine() ?? "127.0.0.1";
@@ -23,9 +23,9 @@ class Program
 
         while (true)
         {
-            TcpClient client = listener.AcceptTcpClient();
+            TcpClient client = await listener.AcceptTcpClientAsync();
             Console.WriteLine($"Client connected from {client.Client.RemoteEndPoint}");
-            Task.Run(() => ClientHandler.Handle(client));
+            _ = Task.Run(() => ClientHandler.HandleAsync(client)); // fire-and-forget
         }
     }
 }

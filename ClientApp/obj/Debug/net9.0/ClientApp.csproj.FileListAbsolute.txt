@@ -12,3 +12,4 @@ C:\Users\Rohit.prajapati\OneDrive - Nepa Sweden AB\Desktop\devtober\socket-assig
 C:\Users\Rohit.prajapati\OneDrive - Nepa Sweden AB\Desktop\devtober\socket-assignment\ClientApp\obj\Debug\net9.0\ClientApp.pdb
 C:\Users\Rohit.prajapati\OneDrive - Nepa Sweden AB\Desktop\devtober\socket-assignment\ClientApp\obj\Debug\net9.0\ClientApp.genruntimeconfig.cache
 C:\Users\Rohit.prajapati\OneDrive - Nepa Sweden AB\Desktop\devtober\socket-assignment\ClientApp\obj\Debug\net9.0\ref\ClientApp.dll
+C:\Users\Rohit.prajapati\OneDrive - Nepa Sweden AB\Desktop\devtober\socket-assignment\ClientApp\obj\Debug\net9.0\ClientApp.sourcelink.json
