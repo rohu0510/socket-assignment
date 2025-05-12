@@ -1,4 +1,4 @@
-# Encrypted Client-Server Time Broadcast Application
+# Socket-Programming Assignment
 
 ## 📖 Overview
 
@@ -31,7 +31,7 @@ This is a simple **client-server console application** built in C# using `.NET`,
 ### 🔃 Step 1: Clone the Repository
 
 ```bash
-git clone (https://github.com/rohu0510/socket-assignment.git)
+git clone https://github.com/rohu0510/socket-assignment.git
 cd <project-root-directory>
 ```
 
@@ -106,14 +106,16 @@ The AES logic is already implemented in a separate file named `AesEncryption.cs`
 ## 📁 Project Structure
 
 ```
-/ApplicationFolder
+/Socket-Programming
 │
 ├── ClientApp
 │   ├── Program.cs
+|   ├── ClientService.cs
 │   └── AesEncryption.cs
 │
 ├── ServerApp
 │   ├── Program.cs
+|   ├── ClientHandler.cs
 │   ├── DataStore.cs
 │   └── AesEncryption.cs
 ```
